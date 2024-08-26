@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="nofollow, nofollow">
     <title>lab1</title>
 </head>
 <body>
@@ -12,16 +13,16 @@
         цілих ненульових числах а, b, с.
     </span>
     <br><br>
-    <ul type="circle" id="list">
+    <ul id="list">
         <li>Факультет комп'ютерних наук <br>
-            <ul type="square">
+            <ul>
                 <li>Кафедра інформаційних управляючих систем (ІУС)</li>
                 <li>Кафедра штучного інтелекту (ШІ)</li>
                 <li>Кафедра системотехніки (СТ)</li>
             </ul>
         </li>
         <li>Факультет комп'ютерної інженерії <br>
-            <ul type="square">
+            <ul>
                 <li>Кафедра комп'ютерних інтелектуальних технологій та систем (КІТС)</li>
                 <li>Кафедра електронних обчислювальних машин (ЕОМ)</li>
                 <li>Кафедра автоматизації проектування обчислювальної техніки (АПОТ)</li>
@@ -43,12 +44,12 @@
         <tr>
             <td>Долар США</td>
             <td>USD</td>
-            <td>27.50</td>
+            <td rowspan="2">27.50</td>
         </tr>
         <tr>
             <td>Євро</td>
             <td>EUR</td>
-            <td>32.20</td>
+            
         </tr>
         <tr>
             <td>Фунт стерлінгів</td>
@@ -58,8 +59,8 @@
         </tbody>
     </table>
     <br><br>
-    <form action="">
-        <ul type="none">
+    <form>
+        <ul>
             <li>
                 <label>
                     <input type="radio" name="vote" value="option1" required>
@@ -85,7 +86,7 @@
     <br><br>
     <b>Зміст</b>
     <ul>
-        <li><a href="#text">текст</a></li>
+        <li><a target="_blank" href="#text">текст</a></li>
         <li><a href="#list">список</a></li>
         <li><a href="#table">таблиця</a></li>
     </ul>
